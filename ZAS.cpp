@@ -358,32 +358,7 @@ Profile player;
 
 
 //FUNCTION DEFINITIONS
-void main() { infoscrn(); loadscrn(); while(1) smenu(); }
-
-void infoscrn()
-{
-	system("CLS");
-	int gd = DETECT, gm;
-	initgraph(&gd,&gm,"c:\\turboc3\\bgi");
-	system("CLS");
-	setbkcolor(4);
-	for(int i=1;i<=35;i++) cout<<char(219);
-	cout<<"> README <";
-	for(int j=1;j<=35;j++) cout<<char(219);
-	cout<<endl;
-	cout<<"                      CENTRAL BOARD OF SECONDARY EDUCATION\n                   ANNUAL COMPUTER SCIENCE PROJECT EVALUATION\n\t\t\t   STD. XII : SESSION 2019-20"<<endl<<endl;
-	cout<<"This project has been developed by students of DAV MODEL SCHOOL, DURGAPUR:"<<endl;
-	cout<<" "<<(char)5<<"  Abesh Roy     , XII A1 <GAME CODE; SOUND; GRAPHICS; DEBUGGING> \n "<<char(5)<<"  Jayanta Pandit, XII A1 <GAME CODE; GRAPHICS; DATABASE; DEBUGGING>\n "<<char(5)<<"  Sourish Mandal, XII A1 <GAME CODE; STORY; DEBUGGING; EDITING>"<<endl<<endl;
-	cout<<"PROJECT : Single Player Text-based Adventure/Survival Game using Turbo C++"<<endl;
-	cout<<"BYTENAME (what we like to call it) : ZOMBIE APOCALYSE SURVIVOR VER1.1"<<endl<<endl;
-	cout<<"PROJECT DESCRIPTION :"<<endl<<endl;
-	cout<<"VER1.0 ended up implementing one of the most challenging ideas of using structure variables as real life objects in the game. This upgraded VER1.1 includes the requisite update to the use of OOP instead of the older SOP, audio cues and integrated graphics using EGAVGA.BGI module of the TURBOC LIBRARY.";
-	cout<<" The new implementations include an excessively wide range of class concept derivatives viz. file handling to save player profiles, and arrays (used throughout), as well as use of GRAPHICS.h and DOS.h headers. <PRESS ENTER> and enjoy playing."<<endl;
-	cout<<endl<<" ";
-	for(i=1;i<=78;i++) cout<<char(219);
-	getch();
-	closegraph();
-}
+void main() { loadscrn(); while(1) smenu(); }
 
 void loadscrn()
 {
