@@ -363,7 +363,7 @@ void main() { loadscrn(); while(1) smenu(); }
 void loadscrn()
 {
 	int gd2 = DETECT, gm2;
-	initgraph(&gd2,&gm2,"c:\\turboc3\\bgi");
+	initgraph(&gd2,&gm2,"c:\\bin\\turboc3\\bgi");
 	int c = 67, x = 310, y = 185;
 	setbkcolor(0);
 	for (int i = 1; i <= c; i++)
