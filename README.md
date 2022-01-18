@@ -66,7 +66,7 @@ cd bin
 # Build
 Out of sheer curiosity, if you feel like compiling the source code from scratch and see how things worked out for us, I've included the TurboC IDE binary labelled `TC.EXE` in `bin/TCC`. Follow the steps to get the prehistoric IDE up and running:
   1. Install and run DOSBox 0.74 (refer steps above).
-  2. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root` or `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`:
+  2. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root` or `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`. Note the appended `/bin` / `\bin`:
 
 **Unix:**
 ```
