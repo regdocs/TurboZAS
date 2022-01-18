@@ -1,6 +1,6 @@
 <h1 align="center"><code>Zombie Apocalypse Survivor 1.1</code></h1>
 
-Zombie Apocalypse Survivor is a 16-bit retro style adventure game on the Windows 3.x terminal built with the TurboC/C++ compiler (v3.2.2, 1992).
+Zombie Apocalypse Survivor is a 16-bit old-school adventure game on the Windows 3.x terminal built with the TurboC/C++ compiler (v3.2.2, 1992).
 
 # Background
 
