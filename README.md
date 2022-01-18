@@ -12,11 +12,8 @@ The program uses the ancient 1989 C++ 2.0 ([C with Classes and more](https://en.
 
 <p align="center"><img width="100%" src="https://github.com/jay-io/ZAS-16/blob/b09f81c93e23058f3b0514b872b0796963f350eb/assets/zas.png" /></p>
 
-# Authors & Contributors
-- [Jayanta Pandit](mailto:jay.dnb@outlook.in)
-- [Abesh Roy](mailto:abeshroyargentina@gmail.com)
-- [Sourish Mandal](https://github.com/where-are-you-pleading-face)
-- [Kunal Samanta](https://instagram.com/kun_sam02)
+# Documentation
+The project documentation can be found in the [`docs`](./docs) folder.
 
 # Run
 The 16-bit executable depends on DOSBox to run on modern 64 bit systems (variable OS) and requires to be installed first. The next step involves cloning this repository, mounting the root of this repository as legacy drive `C` on DOSBox terminal, switching prompt to `C:\>` and running `ZAS.EXE`. I've cut down the complexity and prepared the executable binary before hand to avoid rebuilding the code using the TC compiler.
@@ -84,6 +81,12 @@ cd tcc
 tc
 ```
   4. `File` ➜ `Open` the source `C:\TURBOC3\SOURCE\ZAS.CPP` in a new window ➜ `Run` ➜ `Run (Ctrl + F9)`
+
+# Authors & Contributors
+- [Jayanta Pandit](mailto:jay.dnb@outlook.in)
+- [Abesh Roy](mailto:abeshroyargentina@gmail.com)
+- [Sourish Mandal](https://github.com/where-are-you-pleading-face)
+- [Kunal Samanta](https://instagram.com/kun_sam02)
 
 # License
 [```GPL License```](./LICENSE) This project is licensed under the GNU General Public License v3.0.
