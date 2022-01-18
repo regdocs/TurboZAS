@@ -53,7 +53,7 @@ cd bin
 ```
 brew install dosbox
 ```
-  3. Run DOSBox.
+  2. Run DOSBox.
   3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
 <pre>
 mount c /path/to/repo/root
