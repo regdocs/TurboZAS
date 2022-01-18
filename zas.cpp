@@ -363,7 +363,7 @@ void main() { loadscrn(); while(1) smenu(); }
 void loadscrn()
 {
 	int gd2 = DETECT, gm2;
-	initgraph(&gd2,&gm2,"c:\\bin\\turboc3\\bgi");
+	initgraph(&gd2,&gm2,"c:\\turboc3\\bgi");
 	int c = 67, x = 310, y = 185;
 	setbkcolor(0);
 	for (int i = 1; i <= c; i++)
@@ -651,12 +651,12 @@ void smenu()
 		case 'f' : clrscr();
 				   titlebox();
 				   setbkcolor(15);
-				   cout<<"   Developed, mapped, designed, composed, coded, debugged, and compiled by :\n\n\t(1) Abesh Roy,\n\n\t(2) Jayanta Pandit and\n\n\t(3) Sourish Mandal";
+				   cout<<"   Designed, composed, programmed, and tested by :\n\n\t(1) Abesh Roy (abeshroyargentina@gmail.com),\n\n\t(2) Jayanta Pandit (jay.dnb@outlook.in)\n\n\t(3) Sourish Mandal\n\n\t(4) Kunal Samanta";
 				   getch();
 				   smenu();
 				   break;
 
-		case 'q' : setbkcolor(0); exit(0);
+		case 'q' : setbkcolor(0); system("CLS"); exit(0);
 
 		default  : cout<<"Please provide a valid choice.   <PRESS ENTER>";
 				   getch();
