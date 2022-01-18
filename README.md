@@ -69,13 +69,15 @@ Out of sheer curiosity, if you feel like compiling the source code from scratch 
   2. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root` or `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`:
 
 **Unix:**
-<pre>
+```
 mount c /path/to/repo/root/bin
-</pre>
+c:
+```
 **Windows:**
-<pre>
+```
 mount c C:\path\to\repo\root\bin
-</pre>
+c:
+```
   3. `cd` into the `TCC` directory and execute `TC.EXE`:
 ```
 cd tcc
