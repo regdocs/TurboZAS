@@ -15,7 +15,7 @@ The program uses the ancient 1989 C++ 2.0 ([C with Classes and more](https://en.
 # Authors & Contributors
 - [Jayanta Pandit](mailto:jay.dnb@outlook.in)
 - [Abesh Roy](mailto:abeshroyargentina@gmail.com)
-- [Sourish Mandal](https://github.com/)
+- [Sourish Mandal](https://github.com/where-are-you-pleading-face)
 - [Kunal Samanta](https://instagram.com/kun_sam02)
 
 # Run
