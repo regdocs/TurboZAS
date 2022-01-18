@@ -19,7 +19,7 @@ The program uses the ancient 1989 C++ 2.0 ([C with Classes and more](https://en.
 - [Kunal Samanta](https://instagram.com/kun_sam02)
 
 # Run
-The 16-bit executable depends on DOSBox to run on modern 64 bit systems (variable OS) and requires to be installed first. The next step involves cloning this repository, mounting the `bin` directory as legacy drive `C` on DOSBox terminal, switching prompt to `C:\>` and running `ZAS.EXE`. I've cut down the complexity and prepared the executable binary before hand to avoid rebuilding the code using the TC compiler.
+The 16-bit executable depends on DOSBox to run on modern 64 bit systems (variable OS) and requires to be installed first. The next step involves cloning this repository, mounting the root of this repository as legacy drive `C` on DOSBox terminal, switching prompt to `C:\>` and running `ZAS.EXE`. I've cut down the complexity and prepared the executable binary before hand to avoid rebuilding the code using the TC compiler.
 
 ### Windows:
   1. Install DOSBox 0.74 from [dosbox.com](https://www.dosbox.com/download.php?main=1).
