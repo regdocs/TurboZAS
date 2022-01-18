@@ -81,7 +81,7 @@ mount c C:\path\to\repo\root\bin
 cd tcc
 tc
 ```
-  4. `File` > `Open` the source `C:\TURBOC3\SOURCE\ZAS.CPP` in a new window > `Run` > `Run (Ctrl + F9)`
+  4. `File` ➜ `Open` the source `C:\TURBOC3\SOURCE\ZAS.CPP` in a new window ➜ `Run` ➜ `Run (Ctrl + F9)`
 
 # License
 [```GPL License```](./LICENSE) This project is licensed under the GNU General Public License v3.0.
