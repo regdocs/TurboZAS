@@ -65,14 +65,23 @@ cd bin
 
 # Build
 Out of sheer curiosity, if you feel like compiling the source code from scratch and see how things worked out for us, I've included the TurboC IDE binary labelled `TC.EXE` in `bin/TCC`. Follow the steps to get the prehistoric IDE up and running:
-  1. Install, run and mount your workspace as `C` on DOSBox 0.74 (refer steps 1-3 above).
-  2. `cd` into the TCC directory and execute TurboC IDE:
+  1. Install and run DOSBox 0.74 (refer steps above).
+  2. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root` or `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`:
+
+**Unix:**
+<pre>
+mount c /path/to/repo/root/bin
+</pre>
+**Windows:**
+<pre>
+mount c C:\path\to\repo\root\bin
+</pre>
+  3. `cd` into the `TCC` directory and execute `TC.EXE`:
 ```
-cd bin
 cd tcc
 tc
 ```
-  3. `File` > `Open` (from repo root) `zas.cpp` in a new window > `Run` > `Run`
+  4. `File` > `Open` the source `C:\TURBOC3\SOURCE\ZAS.CPP` in a new window > `Run` > `Run (Ctrl + F9)`
 
 # License
 [```GPL License```](./LICENSE) This project is licensed under the GNU General Public License v3.0.
