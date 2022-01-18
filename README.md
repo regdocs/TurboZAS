@@ -39,9 +39,9 @@ cd bin
 sudo apt install dosbox
 ```
   2. Run DOSBox.
-  3. Assuming you cloned the repository and the path to the repository root is `$ZASROOT`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
+  3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
 <pre>
-mount c $ZASROOT
+mount c /path/to/repo/root
 c:
 cd bin
 </pre>
@@ -49,14 +49,14 @@ cd bin
 <pre>zas</pre>
 
 ### MacOS:
-  1. Install DOSBox 0.74 from [dosbox.com](https://www.dosbox.com/download.php?main=1) or use `brew`:
+  1. Install DOSBox 0.74 from [dosbox.com](https://www.dosbox.com/download.php?main=1) or use [brew](https://brew.sh/):
 ```
 brew install dosbox
 ```
   3. Run DOSBox.
-  4. Assuming you cloned the repository and the path to the repository root is `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
+  3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
 <pre>
-mount c C:\path\to\repo\root
+mount c /path/to/repo/root
 c:
 cd bin
 </pre>
