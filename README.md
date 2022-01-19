@@ -87,7 +87,7 @@ c:
 cd tcc
 tc
 ```
-  4. `File` ➜ `Open` the source `C:\TURBOC3\SOURCE\ZAS.CPP` in a new window ➜ `Run` ➜ `Run (Ctrl + F9)`. This will build the 16-bit binary in the path [`C:\TURBOC3\SOURCE`](./bin/TURBOC3/SOURCE/) and run it on the terminal. An additional binary data file labelledd `PLAYPROF.DAT` will be created which will store the user profiles and player statistics.
+  4. `File` ➜ `Open` the source `C:\TURBOC3\SOURCE\ZAS.CPP` in a new window ➜ `Run` ➜ `Run (Ctrl + F9)`. This will build the 16-bit binary in the path [`C:\TURBOC3\SOURCE`](./bin/TURBOC3/SOURCE/) and run it on the terminal. An additional binary data file labelled `PLAYPROF.DAT` will be created which will store the user profiles and player statistics.
 
 ## Authors & Contributors
 - [Jayanta Pandit](mailto:jay.dnb@outlook.in)
