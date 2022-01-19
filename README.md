@@ -2,7 +2,19 @@
 
 <img src="https://img.shields.io/badge/Version-1.1-orange" /> <img src="https://img.shields.io/badge/C%2B%2B-2.0-success" /> <img src="https://img.shields.io/badge/Environment-16--bit-critical" /> <img src="https://img.shields.io/badge/Emulator-DOSBox%20v0.74-informational" /> <img src="https://img.shields.io/badge/Genre-Retrogaming-blueviolet" />
 
-Zombie Apocalypse Survivor is a 16-bit old-school adventure game on the Windows 3.x terminal built with the TurboC/C++ compiler (v3.2.2, 1992).
+ZAS is a 16-bit environment old-school adventure game on the Windows 3.x terminal built with the TurboC/C++ compiler (v3.2.2, 1992).
+
+## Contents
+- [Background](https://github.com/jay-io/ZAS-16/edit/dev/README.md#background)
+- [Loadscreen shot](https://github.com/jay-io/ZAS-16/edit/dev/README.md#hello-world)
+- [Documentation](https://github.com/jay-io/ZAS-16/edit/dev/README.md#documentation)
+- [Run](https://github.com/jay-io/ZAS-16/edit/dev/README.md#run)
+  - [Windows](https://github.com/jay-io/ZAS-16/edit/dev/README.md#windows)
+  - [Ubuntu](https://github.com/jay-io/ZAS-16#ubuntu-or-refer-to-your-distro-specific-packages)
+  - [macOS](https://github.com/jay-io/ZAS-16/edit/dev/README.md#macos)
+- [Build](https://github.com/jay-io/ZAS-16#build)
+- [Authors & Contributors](https://github.com/jay-io/ZAS-16#authors--contributors)
+- [License](https://github.com/jay-io/ZAS-16#license)
 
 ## Background
 
@@ -51,7 +63,7 @@ c:
 zas
 ```
 
-### MacOS:
+### macOS:
   1. Install DOSBox 0.74 from [dosbox.com](https://www.dosbox.com/download.php?main=1) or use [brew](https://brew.sh/):
 ```zsh
 brew install dosbox
