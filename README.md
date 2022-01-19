@@ -20,7 +20,7 @@ The project documentation can be found in the [`docs`](./docs) folder.
 ## Run
 The 16-bit executable depends on DOSBox to run on modern 64 bit systems (variable OS) and requires it to be installed first. The next step involves cloning this repository, mounting the [`bin`](./bin) directory as legacy drive `C` on DOSBox terminal, switching prompt to `C:\>` and running `ZAS.EXE`. I've cut down the complexity and prepared the executable binary before hand to avoid rebuilding the code using the TC compiler.
 
-###### Please note that the ZAS executables anywhere in this repository are not stand-alone and require the BGI graphics library with the path `C:\TURBOC3\BGI\` relative to the directory mounted as `C` (here, `./bin`) as assigned in the source. Following a wrong mount path, a `BGI Error` is encountered at the console and the game fails to load.
+<blockquote><h6>Please note that the executables anywhere in this repository are not stand-alone and require the BGI graphics library with the path <code>C:\TURBOC3\BGI\</code> relative to the directory mounted as <code>C</code> (here, <a href="./bin"><code>./bin</code></a>) as assigned in the source. Following a wrong mount path, a <code>BGI Error</code> is encountered at the console and the program fails to load.</h6></blockquote>
 
 ### Windows:
   1. Install DOSBox 0.74 from [dosbox.com](https://www.dosbox.com/download.php?main=1).
