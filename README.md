@@ -18,16 +18,17 @@ The program uses the ancient 1989 C++ 2.0 ([C with Classes and more](https://en.
 The project documentation can be found in the [`docs`](./docs) folder.
 
 ## Run
-The 16-bit executable depends on DOSBox to run on modern 64 bit systems (variable OS) and requires it to be installed first. The next step involves cloning this repository, mounting the root of this repository as legacy drive `C` on DOSBox terminal, switching prompt to `C:\>` and running `ZAS.EXE`. I've cut down the complexity and prepared the executable binary before hand to avoid rebuilding the code using the TC compiler.
+The 16-bit executable depends on DOSBox to run on modern 64 bit systems (variable OS) and requires it to be installed first. The next step involves cloning this repository, mounting the [`bin`](./bin) directory as legacy drive `C` on DOSBox terminal, switching prompt to `C:\>` and running `ZAS.EXE`. I've cut down the complexity and prepared the executable binary before hand to avoid rebuilding the code using the TC compiler.
+
+###### Please note that the ZAS executables anywhere in this repository are not stand-alone and require the BGI graphics library with the path `C:\TURBOC3\BGI\` relative to the directory mounted as `C` (here, `./bin`) as assigned in the source. Following a wrong mount path, a `BGI Error` is encountered at the console and the game fails to load.
 
 ### Windows:
   1. Install DOSBox 0.74 from [dosbox.com](https://www.dosbox.com/download.php?main=1).
   2. Run DOSBox.
-  3. Assuming you cloned the repository and the path to the repository root is `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
+  3. Assuming you cloned the repository and the path to the repository root is `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`. Note the appended `\bin`:
 ```bat
-mount c C:\path\to\repo\root
+mount c C:\path\to\repo\root\bin
 c:
-cd bin
 ```
   4. Then execute `ZAS.EXE` to play the game:
 ```bat
@@ -40,11 +41,10 @@ zas
 sudo apt install dosbox
 ```
   2. Run DOSBox.
-  3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
+  3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:`. Note the appended `/bin`:
 ```bat
-mount c /path/to/repo/root
+mount c /path/to/repo/root/bin
 c:
-cd bin
 ```
   4. Then execute `ZAS.EXE` to play the game:
 ```bat
@@ -57,11 +57,10 @@ zas
 brew install dosbox
 ```
   2. Run DOSBox.
-  3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:` and `cd` into `bin` after confirmation:
+  3. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root`, run the following at the `Z:\>` prompt and switch to `C:`. Note the appended `/bin`:
 ```bat
-mount c /path/to/repo/root
+mount c /path/to/repo/root/bin
 c:
-cd bin
 ```
   4. Then execute `ZAS.EXE` to play the game:
 ```bat
@@ -71,7 +70,7 @@ zas
 ## Build
 Out of sheer curiosity, if you feel like compiling the source code from scratch and see how things worked out for us, I've included the TurboC IDE binary labelled `TC.EXE` in `bin/TCC`. Follow the steps to get the prehistoric IDE up and running:
   1. Install and run DOSBox 0.74 (refer steps above).
-  2. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root` or `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`. Note the appended `/bin` / `\bin`:
+  2. Assuming you cloned the repository and the path to the repository root is `/path/to/repo/root` or `C:\path\to\repo\root`, run the following at the `Z:\>` prompt and switch to `C:`. Note the appended `/bin` and `\bin`:
 
 **Unix:**
 ```bat
