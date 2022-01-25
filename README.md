@@ -107,5 +107,8 @@ tc
 - [Sourish Mandal](https://github.com/where-are-you-pleading-face)
 - [Kunal Samanta](https://instagram.com/kun_sam02)
 
+## Contributions
+Although I'm not expecting many to get involved with a project that uses an outdated language and build resources to compile itself, this project is not accepting contributions and is read-only. However, you can always fork the repository to edit onto your own version of it.
+
 ## License
 [```GPL License```](./LICENSE) This project is licensed under the GNU General Public License v3.0.
