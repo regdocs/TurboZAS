@@ -1,6 +1,6 @@
 <h1 align="center"><code>Zombie Apocalypse Survivor</code></h1>
 
-<img src="https://img.shields.io/badge/Version-1.1-orange" /> <img src="https://img.shields.io/badge/C%2B%2B-2.0-success" /> <img src="https://img.shields.io/badge/Environment-16--bit-critical" /> <img src="https://img.shields.io/badge/Emulator-DOSBox%20v0.74-informational" /> <img src="https://img.shields.io/badge/Genre-Retrogaming-blueviolet" />
+<img src="https://img.shields.io/badge/Version-1.1-orange" /> <img src="https://img.shields.io/badge/C%2B%2B-2.0-success" /> <img src="https://img.shields.io/badge/Environment-16--bit-critical" /> <img src="https://img.shields.io/badge/Prerequisite-DOSBox%20v0.74-informational" /> <img src="https://img.shields.io/badge/Genre-Retrogaming-blueviolet" />
 
 ZAS is a 16-bit environment old-school adventure game on the Windows 3.x terminal built with the TurboC/C++ compiler (v3.2.2, 1992).
 
